@@ -29,6 +29,10 @@ body {
     margin-top: 30px;
     width: 600px;
 }
+.nav-link:hover{
+	font-size: 32px;
+	text-shadow: 4px 4px #A49F9A;
+}
 
 #welcome::before {
     content: '';
@@ -91,6 +95,10 @@ div.botton_wrap {
     border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-color: #FF8C00;
+}
+div.botton_wrap:hover{
+	font-size:22px;
+	background-color: #B26513;
 }
 
 #submit, #submit_prod1, #submit_prod2, #submit_prod3 {
@@ -183,10 +191,14 @@ p {
 .product {
     width: calc(80% / 3);
     border: 2px solid black;
+	border-radius:5px;
     margin: 50px 10px 10px 10px;
     height: auto;
     margin-top: 50px;
     text-align: center;
+}
+.product:hover{
+	background-color: #E2B484;
 }
 
 .price {
